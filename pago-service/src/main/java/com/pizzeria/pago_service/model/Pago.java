@@ -15,7 +15,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "payments")
+@Table(name = "pago")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -42,6 +42,7 @@ public class Pago {
     private EstadoPago estado = EstadoPago.PENDING;
     */
 
+    //CONSIDERAR la asignacion de este atributo segun el estado de MetodoPago para futura version
     @Column(name = "fecha_pago", nullable = false, updatable = false) //cambiar para hacer uso de los atributos de estado de arriba
     private LocalDateTime fechaPago;
 

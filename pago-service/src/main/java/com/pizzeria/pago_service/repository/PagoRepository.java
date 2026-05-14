@@ -16,7 +16,7 @@ public interface PagoRepository extends JpaRepository<Pago, Long> {
     boolean existsByPedidoId(Long orderId);
     ///List<Pago> findByMethod(MetodoPago method);  --->    Trabajar con atributo enum
 
-    @Query("SELECT COALESCE(SUM(p.amount), 0) FROM Pago p")
+    @Query("SELECT COALESCE(SUM(p.monto), 0) FROM Pago p")
     BigDecimal sumTotalPago();
 
 }

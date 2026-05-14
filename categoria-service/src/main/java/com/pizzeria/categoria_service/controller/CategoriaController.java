@@ -1,8 +1,6 @@
 package com.pizzeria.categoria_service.controller;
 
 import java.util.List;
-import java.util.Locale.Category;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -37,9 +35,9 @@ public class CategoriaController {
         return ResponseEntity.ok(categoriaService.getCategoriaById(id));
     }
 
-    @GetMapping("/name/{name}")
-    public ResponseEntity<Categoria> getCategoriaByNombre(@PathVariable String name) {
-        return ResponseEntity.ok(categoriaService.getCategoriaByNombre(name));
+    @GetMapping("/nombre/{nombre}")
+    public ResponseEntity<Categoria> getCategoriaByNombre(@PathVariable String nombre) {
+        return ResponseEntity.ok(categoriaService.getCategoriaByNombre(nombre));
     }
 
     @PostMapping

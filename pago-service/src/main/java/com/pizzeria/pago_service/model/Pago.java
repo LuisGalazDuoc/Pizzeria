@@ -5,10 +5,11 @@ import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -32,23 +33,15 @@ public class Pago {
     @Column(name = "monto", nullable = false, precision = 10, scale = 2)
     private BigDecimal monto;
 
-    /*  Mas atributos que dependen de una clase enum
     @Enumerated(EnumType.STRING)
     @Column(name = "metodo", nullable = false, length = 20)
     private MetodoPago metodo;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "estado", nullable = false, length = 20)
-    private EstadoPago estado = EstadoPago.PENDING;
-    */
+    private EstadoPago estado = EstadoPago.Pendiente;
 
-    //CONSIDERAR la asignacion de este atributo segun el estado de MetodoPago para futura version
-    @Column(name = "fecha_pago", nullable = false, updatable = false) //cambiar para hacer uso de los atributos de estado de arriba
+    @Column(name = "fecha_pago")
     private LocalDateTime fechaPago;
-
-    @PrePersist
-    protected void onCreate() {
-        this.fechaPago = LocalDateTime.now();
-    }
 
 }

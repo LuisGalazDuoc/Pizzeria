@@ -5,12 +5,6 @@ spring:
   main:
     web-application-type: reactive
 
-#  security:
-#    oauth2:
-#      resourceserver:
-#        jwt:
-#          secret-key: esta_es_mi_compleja_clave_secreta
-
   cloud:
     gateway:
       routes:
@@ -59,3 +53,9 @@ spring:
 #          uri: http://localhost:9094
 #          predicates:
 #            - Path=/auth/**
+
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          secret-key: esta_es_mi_compleja_clave_secreta

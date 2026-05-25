@@ -1,0 +1,1170 @@
+2026-05-25 12:41:08 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 18300 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 12:41:08 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 12:41:08 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 12:41:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 12:41:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-05-25 12:41:10 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 12:41:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 12:41:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 12:41:10 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1302 ms
+2026-05-25 12:41:10 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 12:41:10 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 12:41:10 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 12:41:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 12:41:11 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@93ce24d
+2026-05-25 12:41:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 12:41:11 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 12:41:11 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 12:41:12 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 12:41:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 12:41:12 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 12:41:14 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 12:41:14 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-05-25 12:41:14 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 12:41:14 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 12:41:14 [main] INFO  liquibase.util - Run:                          0
+2026-05-25 12:41:14 [main] INFO  liquibase.util - Previously run:               2
+2026-05-25 12:41:14 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 12:41:14 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 12:41:14 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 12:41:14 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 12:41:14 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 12:41:14 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 12:41:14 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 12:41:14 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 6.377 seconds (process running for 6.791)
+2026-05-25 12:52:29 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 560 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 12:52:29 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 12:52:29 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 12:52:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 12:52:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2026-05-25 12:52:31 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 12:52:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 12:52:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 12:52:31 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1212 ms
+2026-05-25 12:52:31 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 12:52:31 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 12:52:31 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 12:52:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 12:52:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d585fb
+2026-05-25 12:52:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 12:52:32 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 12:52:32 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 12:52:33 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 12:52:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 12:52:33 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 12:52:35 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 12:52:36 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-05-25 12:52:36 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 12:52:36 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 12:52:36 [main] INFO  liquibase.util - Run:                          0
+2026-05-25 12:52:36 [main] INFO  liquibase.util - Previously run:               2
+2026-05-25 12:52:36 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 12:52:36 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 12:52:36 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 12:52:36 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 12:52:36 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 12:52:36 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 12:52:36 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 12:52:36 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 7.085 seconds (process running for 7.514)
+2026-05-25 13:13:51 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 22288 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 13:13:51 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 13:13:51 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:13:52 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 13:13:52 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2026-05-25 13:13:53 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 13:13:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:13:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 13:13:53 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1212 ms
+2026-05-25 13:13:53 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 13:13:53 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 13:13:54 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 13:13:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 13:13:54 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d585fb
+2026-05-25 13:13:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 13:13:54 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 13:13:54 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 13:13:55 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 13:13:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 13:13:55 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 13:13:58 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:13:58 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-05-25 13:13:58 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:13:58 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 13:13:58 [main] INFO  liquibase.util - Run:                          0
+2026-05-25 13:13:58 [main] INFO  liquibase.util - Previously run:               2
+2026-05-25 13:13:58 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 13:13:58 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 13:13:58 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 13:13:58 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 13:13:58 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 13:13:58 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 13:13:59 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 13:13:59 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 7.897 seconds (process running for 8.329)
+2026-05-25 13:22:58 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 22008 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 13:22:58 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 13:22:58 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:22:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 13:22:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-05-25 13:23:00 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 13:23:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:23:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 13:23:00 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1294 ms
+2026-05-25 13:23:00 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 13:23:00 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 13:23:01 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 13:23:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 13:23:01 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aeaff64
+2026-05-25 13:23:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 13:23:01 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 13:23:01 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 13:23:02 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 13:23:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 13:23:02 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 13:23:04 [main] INFO  liquibase.changelog - Creating database changelog table with name: bd_usuario.databasechangelog
+2026-05-25 13:23:04 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:23:04 [main] INFO  liquibase.snapshot - Creating snapshot
+2026-05-25 13:23:05 [main] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-05-25 13:23:05 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-05-25 13:23:05 [main] INFO  liquibase.command - Using deploymentId: 9729783070
+2026-05-25 13:23:05 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:23:05 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-05-25 13:23:05 [main] INFO  liquibase.ui - Name 'pk_usuario' ignored for PRIMARY key.
+2026-05-25 13:23:05 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 13:23:05 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 33ms
+2026-05-25 13:23:05 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-05-25 13:23:05 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 13:23:05 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 9ms
+2026-05-25 13:23:05 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 13:23:05 [main] INFO  liquibase.util - Run:                          2
+2026-05-25 13:23:05 [main] INFO  liquibase.util - Previously run:               0
+2026-05-25 13:23:05 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 13:23:05 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 13:23:05 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 13:23:05 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 13:23:05 [main] INFO  liquibase.command - Update command completed successfully.
+2026-05-25 13:23:05 [main] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-05-25 13:23:05 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2026-05-25 13:23:05 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 13:23:05 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 13:23:05 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 13:23:05 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 7.612 seconds (process running for 8.093)
+2026-05-25 13:31:42 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 22148 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 13:31:42 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 13:31:42 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:31:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 13:31:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-05-25 13:31:43 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 13:31:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:31:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 13:31:43 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1329 ms
+2026-05-25 13:31:43 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 13:31:43 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 13:31:44 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 13:31:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 13:31:44 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1218e12
+2026-05-25 13:31:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 13:31:44 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 13:31:44 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 13:31:45 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 13:31:45 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 13:31:45 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 13:31:49 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:31:49 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-05-25 13:31:49 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:31:49 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 13:31:49 [main] INFO  liquibase.util - Run:                          0
+2026-05-25 13:31:49 [main] INFO  liquibase.util - Previously run:               2
+2026-05-25 13:31:49 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 13:31:49 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 13:31:49 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 13:31:49 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 13:31:49 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 13:31:49 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 13:31:49 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 13:31:49 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 8.487 seconds (process running for 8.989)
+2026-05-25 13:41:55 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 324 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 13:41:55 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 13:41:55 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:41:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 13:41:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-05-25 13:41:56 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 13:41:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:41:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 13:41:56 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1414 ms
+2026-05-25 13:41:56 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 13:41:56 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 13:41:57 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 13:41:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 13:41:58 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d949bc4
+2026-05-25 13:41:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 13:41:58 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 13:41:58 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 13:41:59 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 13:41:59 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 13:41:59 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 13:42:02 [main] INFO  liquibase.changelog - Creating database changelog table with name: bd_usuario.databasechangelog
+2026-05-25 13:42:02 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:42:02 [main] INFO  liquibase.snapshot - Creating snapshot
+2026-05-25 13:42:02 [main] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-05-25 13:42:02 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-05-25 13:42:02 [main] INFO  liquibase.command - Using deploymentId: 9730919665
+2026-05-25 13:42:02 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:42:02 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-05-25 13:42:02 [main] INFO  liquibase.ui - Name 'pk_usuario' ignored for PRIMARY key.
+2026-05-25 13:42:02 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 13:42:02 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 31ms
+2026-05-25 13:42:02 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-05-25 13:42:02 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 13:42:02 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 10ms
+2026-05-25 13:42:02 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 13:42:02 [main] INFO  liquibase.util - Run:                          2
+2026-05-25 13:42:02 [main] INFO  liquibase.util - Previously run:               0
+2026-05-25 13:42:02 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 13:42:02 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 13:42:02 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 13:42:02 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 13:42:02 [main] INFO  liquibase.command - Update command completed successfully.
+2026-05-25 13:42:02 [main] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-05-25 13:42:02 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2026-05-25 13:42:02 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 13:42:02 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 13:42:03 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 13:42:03 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 8.441 seconds (process running for 8.934)
+2026-05-25 13:54:12 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 2216 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 13:54:12 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 13:54:12 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:54:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 13:54:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2026-05-25 13:54:13 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 13:54:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:54:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 13:54:13 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1227 ms
+2026-05-25 13:54:13 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 13:54:13 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 13:54:14 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 13:54:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 13:54:14 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d585fb
+2026-05-25 13:54:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 13:54:14 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 13:54:14 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 13:54:15 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 13:54:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 13:54:15 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 13:54:17 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:54:17 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-05-25 13:54:17 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 13:54:17 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 13:54:17 [main] INFO  liquibase.util - Run:                          0
+2026-05-25 13:54:17 [main] INFO  liquibase.util - Previously run:               2
+2026-05-25 13:54:17 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 13:54:17 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 13:54:17 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 13:54:17 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 13:54:17 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 13:54:17 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 13:54:18 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 13:54:18 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 6.325 seconds (process running for 6.791)
+2026-05-25 14:01:59 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 14:01:59 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 14:01:59 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 14:01:59 [http-nio-9091-exec-1] INFO  c.e.u.controller.UsuarioController - GET /usuarios - Solicitando todos los usuarios
+2026-05-25 14:01:59 [http-nio-9091-exec-1] INFO  c.e.u.service.UsuarioService - Obteniendo todos los usuarios
+2026-05-25 14:01:59 [http-nio-9091-exec-1] DEBUG c.e.u.service.UsuarioService - Total usuarios encontrados: 10
+2026-05-25 14:01:59 [http-nio-9091-exec-2] ERROR c.e.u.e.GlobalExceptionHandler - Error inesperado: No static resource favicon.ico for request '/favicon.ico'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:526)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2026-05-25 14:24:14 [http-nio-9091-exec-5] INFO  c.e.u.controller.UsuarioController - GET /usuarios - Solicitando todos los usuarios
+2026-05-25 14:24:14 [http-nio-9091-exec-5] INFO  c.e.u.service.UsuarioService - Obteniendo todos los usuarios
+2026-05-25 14:24:14 [http-nio-9091-exec-5] DEBUG c.e.u.service.UsuarioService - Total usuarios encontrados: 10
+2026-05-25 14:25:15 [http-nio-9091-exec-8] INFO  c.e.u.controller.UsuarioController - GET /usuarios - Solicitando todos los usuarios
+2026-05-25 14:25:15 [http-nio-9091-exec-8] INFO  c.e.u.service.UsuarioService - Obteniendo todos los usuarios
+2026-05-25 14:25:15 [http-nio-9091-exec-8] DEBUG c.e.u.service.UsuarioService - Total usuarios encontrados: 10
+2026-05-25 14:25:46 [http-nio-9091-exec-3] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 14:25:46 [http-nio-9091-exec-3] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 14:25:50 [http-nio-9091-exec-10] INFO  c.e.u.controller.UsuarioController - GET /usuarios - Solicitando todos los usuarios
+2026-05-25 14:25:50 [http-nio-9091-exec-10] INFO  c.e.u.service.UsuarioService - Obteniendo todos los usuarios
+2026-05-25 14:25:50 [http-nio-9091-exec-10] DEBUG c.e.u.service.UsuarioService - Total usuarios encontrados: 10
+2026-05-25 14:26:04 [http-nio-9091-exec-1] INFO  c.e.u.controller.UsuarioController - GET /usuarios/rut/12345678 - Solicitando usuario por RUT
+2026-05-25 14:26:04 [http-nio-9091-exec-1] INFO  c.e.u.service.UsuarioService - Buscando usuario con RUT: 12345678
+2026-05-25 14:26:39 [http-nio-9091-exec-2] ERROR c.e.u.e.GlobalExceptionHandler - Error inesperado: Request method 'POST' is not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:260)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:434)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:116)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:544)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1157)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:951)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2026-05-25 14:26:55 [http-nio-9091-exec-4] INFO  c.e.u.controller.UsuarioController - POST /usuarios - Creando usuario con RUT: 99887766
+2026-05-25 14:26:55 [http-nio-9091-exec-4] INFO  c.e.u.service.UsuarioService - Creando usuario con RUT: 99887766
+2026-05-25 14:26:55 [http-nio-9091-exec-4] ERROR c.e.u.e.GlobalExceptionHandler - Error inesperado: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:186)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:131)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:105)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:223)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:576)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:346)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:157)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.save(Unknown Source)
+	at com.example.usuario_service.service.UsuarioService.createUsuario(UsuarioService.java:63)
+	at com.example.usuario_service.controller.UsuarioController.createUsuario(UsuarioController.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:120)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:120)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:67)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:667)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:270)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:371)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:285)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:215)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:133)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:144)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:90)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:74)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:50)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:692)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:675)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:240)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:386)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:664)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	... 50 common frames omitted
+2026-05-25 14:27:22 [http-nio-9091-exec-6] INFO  c.e.u.controller.UsuarioController - POST /usuarios - Creando usuario con RUT: 99887766
+2026-05-25 14:27:22 [http-nio-9091-exec-6] INFO  c.e.u.service.UsuarioService - Creando usuario con RUT: 99887766
+2026-05-25 14:27:22 [http-nio-9091-exec-6] ERROR c.e.u.e.GlobalExceptionHandler - Error inesperado: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:186)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:131)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:105)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:223)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:576)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:346)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:157)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.save(Unknown Source)
+	at com.example.usuario_service.service.UsuarioService.createUsuario(UsuarioService.java:63)
+	at com.example.usuario_service.controller.UsuarioController.createUsuario(UsuarioController.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:120)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:120)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:67)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:667)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:270)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:371)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:285)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:215)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:133)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:144)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:90)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:74)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:50)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:692)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:675)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:240)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:386)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:664)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	... 50 common frames omitted
+2026-05-25 14:27:27 [http-nio-9091-exec-8] INFO  c.e.u.controller.UsuarioController - GET /usuarios - Solicitando todos los usuarios
+2026-05-25 14:27:27 [http-nio-9091-exec-8] INFO  c.e.u.service.UsuarioService - Obteniendo todos los usuarios
+2026-05-25 14:27:27 [http-nio-9091-exec-8] DEBUG c.e.u.service.UsuarioService - Total usuarios encontrados: 10
+2026-05-25 14:28:10 [http-nio-9091-exec-3] INFO  c.e.u.controller.UsuarioController - POST /usuarios - Creando usuario con RUT: 99887766
+2026-05-25 14:28:10 [http-nio-9091-exec-3] INFO  c.e.u.service.UsuarioService - Creando usuario con RUT: 99887766
+2026-05-25 14:28:10 [http-nio-9091-exec-3] ERROR c.e.u.e.GlobalExceptionHandler - Error inesperado: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:186)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:131)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:105)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:223)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:576)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:346)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:157)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.save(Unknown Source)
+	at com.example.usuario_service.service.UsuarioService.createUsuario(UsuarioService.java:63)
+	at com.example.usuario_service.controller.UsuarioController.createUsuario(UsuarioController.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:120)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:120)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:67)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:667)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:270)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:371)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:285)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:215)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:133)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:144)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:90)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:74)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:50)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:692)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:675)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:240)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:386)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:664)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	... 50 common frames omitted
+2026-05-25 14:28:13 [http-nio-9091-exec-1] INFO  c.e.u.controller.UsuarioController - POST /usuarios - Creando usuario con RUT: 99887766
+2026-05-25 14:28:13 [http-nio-9091-exec-1] INFO  c.e.u.service.UsuarioService - Creando usuario con RUT: 99887766
+2026-05-25 14:28:13 [http-nio-9091-exec-1] ERROR c.e.u.e.GlobalExceptionHandler - Error inesperado: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:186)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:131)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:105)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:223)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:576)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:346)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:157)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.save(Unknown Source)
+	at com.example.usuario_service.service.UsuarioService.createUsuario(UsuarioService.java:63)
+	at com.example.usuario_service.controller.UsuarioController.createUsuario(UsuarioController.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: org.hibernate.PropertyValueException: not-null property references a null or transient value for entity com.example.usuario_service.model.Usuario.dvrut
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:120)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:120)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:67)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:667)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:270)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:371)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:285)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:215)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:133)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:144)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:90)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:74)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:50)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:692)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:675)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:240)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:386)
+	at jdk.proxy2/jdk.proxy2.$Proxy119.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:664)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	... 50 common frames omitted
+2026-05-25 14:28:43 [http-nio-9091-exec-9] INFO  c.e.u.controller.UsuarioController - POST /usuarios - Creando usuario con RUT: 99887766
+2026-05-25 14:28:43 [http-nio-9091-exec-9] INFO  c.e.u.service.UsuarioService - Creando usuario con RUT: 99887766
+2026-05-25 14:28:43 [http-nio-9091-exec-9] INFO  c.e.u.service.UsuarioService - Usuario creado exitosamente con ID: 11
+2026-05-25 14:29:16 [http-nio-9091-exec-4] ERROR c.e.u.e.GlobalExceptionHandler - Error inesperado: Request method 'PUT' is not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:260)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:434)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:116)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:544)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1157)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:951)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2026-05-25 14:29:31 [http-nio-9091-exec-6] INFO  c.e.u.controller.UsuarioController - PUT /usuarios/1 - Actualizando usuario
+2026-05-25 14:29:31 [http-nio-9091-exec-6] INFO  c.e.u.service.UsuarioService - Actualizando usuario con ID: 1
+2026-05-25 14:29:31 [http-nio-9091-exec-6] INFO  c.e.u.service.UsuarioService - Usuario actualizado exitosamente con ID: 1
+2026-05-25 14:29:37 [http-nio-9091-exec-7] INFO  c.e.u.controller.UsuarioController - GET /usuarios - Solicitando todos los usuarios
+2026-05-25 14:29:37 [http-nio-9091-exec-7] INFO  c.e.u.service.UsuarioService - Obteniendo todos los usuarios
+2026-05-25 14:29:37 [http-nio-9091-exec-7] DEBUG c.e.u.service.UsuarioService - Total usuarios encontrados: 11
+2026-05-25 14:29:52 [http-nio-9091-exec-8] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 14:29:52 [http-nio-9091-exec-8] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 14:44:39 [http-nio-9091-exec-1] INFO  c.e.u.controller.UsuarioController - DELETE /usuarios/1 - Eliminando usuario
+2026-05-25 14:44:39 [http-nio-9091-exec-1] INFO  c.e.u.service.UsuarioService - Eliminando usuario con ID: 1
+2026-05-25 14:44:39 [http-nio-9091-exec-1] INFO  c.e.u.service.UsuarioService - Usuario eliminado exitosamente con ID: 1
+2026-05-25 14:44:44 [http-nio-9091-exec-2] INFO  c.e.u.controller.UsuarioController - GET /usuarios - Solicitando todos los usuarios
+2026-05-25 14:44:44 [http-nio-9091-exec-2] INFO  c.e.u.service.UsuarioService - Obteniendo todos los usuarios
+2026-05-25 14:44:44 [http-nio-9091-exec-2] DEBUG c.e.u.service.UsuarioService - Total usuarios encontrados: 10
+2026-05-25 14:47:15 [http-nio-9091-exec-4] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 14:47:15 [http-nio-9091-exec-4] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 14:47:15 [http-nio-9091-exec-4] WARN  c.e.u.service.UsuarioService - Usuario no encontrado con ID: 1
+2026-05-25 14:47:15 [http-nio-9091-exec-4] WARN  c.e.u.e.GlobalExceptionHandler - Error de validación: Usuario no encontrado con ID: 1
+2026-05-25 14:48:07 [http-nio-9091-exec-5] INFO  c.e.u.controller.UsuarioController - GET /usuarios/11 - Solicitando usuario por ID
+2026-05-25 14:48:07 [http-nio-9091-exec-5] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 11
+2026-05-25 14:48:29 [http-nio-9091-exec-7] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 14:48:29 [http-nio-9091-exec-7] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 14:48:29 [http-nio-9091-exec-7] WARN  c.e.u.service.UsuarioService - Usuario no encontrado con ID: 1
+2026-05-25 14:48:29 [http-nio-9091-exec-7] WARN  c.e.u.e.GlobalExceptionHandler - Error de validación: Usuario no encontrado con ID: 1
+2026-05-25 14:50:48 [http-nio-9091-exec-8] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 14:50:48 [http-nio-9091-exec-8] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 14:50:48 [http-nio-9091-exec-8] WARN  c.e.u.service.UsuarioService - Usuario no encontrado con ID: 1
+2026-05-25 14:50:48 [http-nio-9091-exec-8] WARN  c.e.u.e.GlobalExceptionHandler - Error de validación: Usuario no encontrado con ID: 1
+2026-05-25 15:12:46 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 24432 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 15:12:46 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 15:12:46 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 15:12:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 15:12:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2026-05-25 15:12:47 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 15:12:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 15:12:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 15:12:47 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1307 ms
+2026-05-25 15:12:47 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 15:12:47 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 15:12:48 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 15:12:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 15:12:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@93ce24d
+2026-05-25 15:12:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 15:12:49 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 15:12:49 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 15:12:50 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 15:12:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 15:12:50 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 15:12:54 [main] INFO  liquibase.changelog - Creating database changelog table with name: bd_usuario.databasechangelog
+2026-05-25 15:12:54 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 15:12:54 [main] INFO  liquibase.snapshot - Creating snapshot
+2026-05-25 15:12:54 [main] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-05-25 15:12:55 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-05-25 15:12:55 [main] INFO  liquibase.command - Using deploymentId: 9736370487
+2026-05-25 15:12:55 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 15:12:55 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-05-25 15:12:55 [main] INFO  liquibase.ui - Name 'pk_usuario' ignored for PRIMARY key.
+2026-05-25 15:12:55 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 15:12:55 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 33ms
+2026-05-25 15:12:55 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-05-25 15:12:55 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 15:12:55 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 9ms
+2026-05-25 15:12:55 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 15:12:55 [main] INFO  liquibase.util - Run:                          2
+2026-05-25 15:12:55 [main] INFO  liquibase.util - Previously run:               0
+2026-05-25 15:12:55 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 15:12:55 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 15:12:55 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 15:12:55 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 15:12:55 [main] INFO  liquibase.command - Update command completed successfully.
+2026-05-25 15:12:55 [main] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-05-25 15:12:55 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2026-05-25 15:12:55 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 15:12:55 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 15:12:55 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 15:12:55 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 9.993 seconds (process running for 10.458)
+2026-05-25 15:14:52 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 12904 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 15:14:52 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 15:14:52 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 15:14:52 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 15:14:52 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2026-05-25 15:14:53 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 15:14:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 15:14:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 15:14:53 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1300 ms
+2026-05-25 15:14:53 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 15:14:53 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 15:14:54 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 15:14:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 15:14:54 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@93ce24d
+2026-05-25 15:14:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 15:14:54 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 15:14:54 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 15:14:55 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 15:14:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 15:14:56 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 15:15:01 [main] INFO  liquibase.changelog - Creating database changelog table with name: bd_usuario.databasechangelog
+2026-05-25 15:15:01 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 15:15:01 [main] INFO  liquibase.snapshot - Creating snapshot
+2026-05-25 15:15:01 [main] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-05-25 15:15:01 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-05-25 15:15:01 [main] INFO  liquibase.command - Using deploymentId: 9736496260
+2026-05-25 15:15:01 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 15:15:01 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-05-25 15:15:01 [main] INFO  liquibase.ui - Name 'pk_usuario' ignored for PRIMARY key.
+2026-05-25 15:15:01 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 15:15:01 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 31ms
+2026-05-25 15:15:02 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-05-25 15:15:02 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 15:15:02 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 10ms
+2026-05-25 15:15:02 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 15:15:02 [main] INFO  liquibase.util - Run:                          2
+2026-05-25 15:15:02 [main] INFO  liquibase.util - Previously run:               0
+2026-05-25 15:15:02 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 15:15:02 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 15:15:02 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 15:15:02 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 15:15:02 [main] INFO  liquibase.command - Update command completed successfully.
+2026-05-25 15:15:02 [main] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-05-25 15:15:02 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2026-05-25 15:15:02 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 15:15:02 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 15:15:02 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 15:15:02 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 11.006 seconds (process running for 11.467)
+2026-05-25 15:15:59 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 15:15:59 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 15:15:59 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 15:15:59 [http-nio-9091-exec-1] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 15:15:59 [http-nio-9091-exec-1] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 15:20:57 [main] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 19400 (C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service\target\classes started by AV-Alumno in C:\Users\AV-Alumno\Downloads\Pizzeria\Pizzeria\usuario-service)
+2026-05-25 15:20:57 [main] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-25 15:20:57 [main] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 15:20:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25 15:20:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2026-05-25 15:20:58 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-05-25 15:20:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 15:20:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25 15:20:58 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1266 ms
+2026-05-25 15:20:58 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25 15:20:58 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25 15:20:59 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25 15:20:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-25 15:21:00 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@93ce24d
+2026-05-25 15:21:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-25 15:21:00 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-25 15:21:00 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25 15:21:01 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25 15:21:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25 15:21:01 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25 15:21:03 [main] INFO  liquibase.changelog - Creating database changelog table with name: bd_usuario.databasechangelog
+2026-05-25 15:21:03 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 15:21:03 [main] INFO  liquibase.snapshot - Creating snapshot
+2026-05-25 15:21:03 [main] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-05-25 15:21:03 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-05-25 15:21:03 [main] INFO  liquibase.command - Using deploymentId: 9736861375
+2026-05-25 15:21:03 [main] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-05-25 15:21:03 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-05-25 15:21:03 [main] INFO  liquibase.ui - Name 'pk_usuario' ignored for PRIMARY key.
+2026-05-25 15:21:03 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 15:21:03 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 36ms
+2026-05-25 15:21:03 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-05-25 15:21:03 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-05-25 15:21:03 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 11ms
+2026-05-25 15:21:03 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-05-25 15:21:03 [main] INFO  liquibase.util - Run:                          2
+2026-05-25 15:21:03 [main] INFO  liquibase.util - Previously run:               0
+2026-05-25 15:21:03 [main] INFO  liquibase.util - Filtered out:                 0
+2026-05-25 15:21:03 [main] INFO  liquibase.util - -------------------------------
+2026-05-25 15:21:03 [main] INFO  liquibase.util - Total change sets:            2
+2026-05-25 15:21:03 [main] INFO  liquibase.util - Update summary generated
+2026-05-25 15:21:03 [main] INFO  liquibase.command - Update command completed successfully.
+2026-05-25 15:21:03 [main] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-05-25 15:21:03 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2026-05-25 15:21:03 [main] INFO  liquibase.command - Command execution complete
+2026-05-25 15:21:03 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25 15:21:04 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-05-25 15:21:04 [main] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 7.535 seconds (process running for 8.004)
+2026-05-25 15:25:52 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 15:25:52 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 15:25:52 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 15:25:52 [http-nio-9091-exec-1] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 15:25:52 [http-nio-9091-exec-1] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 15:38:44 [http-nio-9091-exec-3] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 15:38:44 [http-nio-9091-exec-3] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 15:41:02 [http-nio-9091-exec-5] INFO  c.e.u.controller.UsuarioController - GET /usuarios/2 - Solicitando usuario por ID
+2026-05-25 15:41:02 [http-nio-9091-exec-5] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 2
+2026-05-25 15:41:30 [http-nio-9091-exec-7] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 15:41:30 [http-nio-9091-exec-7] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 15:41:45 [http-nio-9091-exec-8] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 15:41:45 [http-nio-9091-exec-8] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1
+2026-05-25 15:41:53 [http-nio-9091-exec-10] INFO  c.e.u.controller.UsuarioController - GET /usuarios/3 - Solicitando usuario por ID
+2026-05-25 15:41:53 [http-nio-9091-exec-10] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 3
+2026-05-25 15:57:39 [http-nio-9091-exec-2] INFO  c.e.u.controller.UsuarioController - GET /usuarios/1 - Solicitando usuario por ID
+2026-05-25 15:57:39 [http-nio-9091-exec-2] INFO  c.e.u.service.UsuarioService - Buscando usuario con ID: 1

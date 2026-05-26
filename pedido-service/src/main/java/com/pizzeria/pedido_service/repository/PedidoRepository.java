@@ -17,7 +17,7 @@ public interface PedidoRepository extends JpaRepository<Pedido, Long>{
     ///List<Pedido> findByStatus(PedidoEstado status); ---> Utilizar con el atributo enum PedidoEstado
     List<Pedido> findByFechaCreacionBetween(LocalDateTime start, LocalDateTime end);
 
-    @Query("SELECT COALESCE(SUM(p.total), 0) FROM Pedido p")
+    @Query("SELECT COALESCE(SUM(p.montoTotal), 0) FROM Pedido p")
     BigDecimal sumMontoTotalPedido();
 
 }

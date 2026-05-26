@@ -17,6 +17,6 @@ public interface PedidoDetalleRepository extends JpaRepository<PedidoDetalle, Lo
     boolean existsByPedidoId(Long pedidoId);
 
     @Query("SELECT COALESCE(SUM(pd.subtotal), 0) FROM PedidoDetalle pd WHERE pd.pedidoId = :pedidoId")
-    BigDecimal sumSubtotalByPedidoId(@Param("pedidoId") Long pedidoId);
+    BigDecimal sumSubtotalByPedidoId(@Param("pedido_id") Long pedidoId);
 
 }

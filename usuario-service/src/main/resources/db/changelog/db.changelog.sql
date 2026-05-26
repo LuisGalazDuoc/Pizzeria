@@ -15,7 +15,7 @@ CREATE TABLE usuario (
 );
 
 --changeset pizzeria:002
-INSERT INTO customers (rut, dvrut, nombre, email, telefono) VALUES
+INSERT INTO usuario (rut, dvrut, nombre, email, telefono) VALUES
     (12345678, '9', 'Juan Pérez',       'juan.perez@gmail.com',       '+56912345678'),
     (23456789, '0', 'María González',   'maria.gonzalez@gmail.com',   '+56923456789'),
     (34567890, '1', 'Carlos Rodríguez', 'carlos.rodriguez@gmail.com', '+56934567890'),

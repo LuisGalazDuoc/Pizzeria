@@ -1,0 +1,256 @@
+usuario-service — Puerto 9091		FUNCIONA
+GET todos
+GET http://localhost:9090/usuarios
+GET por ID
+GET http://localhost:9090/usuarios/1
+GET por RUT
+GET http://localhost:9090/usuarios/rut/12345678
+POST crear
+jsonPOST http://localhost:9090/usuarios
+Content-Type: application/json
+
+{
+    "rut": 99887766,
+    "dvrut": "3",
+    "nombre": "Pedro Alonso",
+    "email": "pedro.alonso@gmail.com",
+    "telefono": "+56999887766"
+}
+PUT actualizar
+jsonPUT http://localhost:9090/usuarios/1
+Content-Type: application/json
+
+{
+    "rut": 12345678,
+    "dvrut": "9",
+    "nombre": "Juan Pérez Actualizado",
+    "email": "juan.perez.nuevo@gmail.com",
+    "telefono": "+56912345699"
+}
+DELETE eliminar
+DELETE http://localhost:9090/usuarios/1
+
+--------------------------------------------------------------------------
+
+direccion-service — Puerto 9092		FUNCIONA
+GET todos
+GET http://localhost:9090/direcciones
+GET por ID
+GET http://localhost:9090/direcciones/1
+GET por customer
+GET http://localhost:9090/direcciones/usuario/1
+GET dirección por defecto
+GET http://localhost:9090/direcciones/default/1
+POST crear
+jsonPOST http://localhost:9090/direcciones
+Content-Type: application/json
+
+{
+    "usuarioId": 1,
+    "calle": "Calle Nueva 999",
+    "comuna": "Santiago Centro",
+    "esDefault": false
+}
+PUT actualizar
+jsonPUT http://localhost:9090/direcciones/1
+Content-Type: application/json
+
+{
+    "usuarioId": 1,
+    "calle": "Av. Providencia 9999",
+    "comuna": "Providencia",
+    "esDefault": true
+}
+DELETE eliminar
+DELETE http://localhost:9090/direcciones/1
+
+----------------------------------------------------------------------------------
+
+categoria-service — Puerto 9093		FUNCIONA
+GET todos
+GET http://localhost:9090/categorias
+GET por ID
+GET http://localhost:9090/categorias/1
+GET por nombre
+GET http://localhost:9090/categorias/nombre/Pizzas
+POST crear
+jsonPOST http://localhost:9090/categorias
+Content-Type: application/json
+
+{
+    "nombre": "Pastas"
+}
+PUT actualizar
+jsonPUT http://localhost:9090/categorias/1
+Content-Type: application/json
+
+{
+    "nombre": "Pizzas Artesanales"
+}
+DELETE eliminar
+DELETE http://localhost:9090/categorias/1
+
+----------------------------------------------------------------------------------
+
+producto-service — Puerto 9094
+GET todos
+GET http://localhost:9090/productos
+GET por ID
+GET http://localhost:9090/productos/1
+GET por categoría
+GET http://localhost:9090/productos/categoria/1
+GET disponibles
+GET http://localhost:9090/productos/disponible
+POST crear
+jsonPOST http://localhost:9090/productos
+Content-Type: application/json
+
+{
+    "categoriaId": 1,
+    "nombre": "Pizza Napolitana",
+    "descripcion": "Salsa de tomate, mozzarella, anchoas y aceitunas",
+    "precio": 9990.00,
+    "disponible": true
+}
+PUT actualizar
+jsonPUT http://localhost:9090/productos/1
+Content-Type: application/json
+
+{
+    "categoriaId": 1,
+    "nombre": "Pizza Margherita Especial",
+    "descripcion": "Salsa de tomate, mozzarella fresca y albahaca orgánica",
+    "precio": 8990.00,
+    "disponible": true
+}
+DELETE eliminar
+DELETE http://localhost:9090/productos/1
+
+----------------------------------------------------------------------------------
+
+pedido-service — Puerto 9095
+GET todos
+GET http://localhost:9090/pedidos
+GET por ID
+GET http://localhost:9090/pedidos/1
+GET por cliente
+GET http://localhost:9090/pedidos/usuario/1
+GET por rango de fechas
+GET http://localhost:9090/pedidos/rango-fechas?inicio=2026-01-01T00:00:00&fin=2026-03-31T23:59:59
+GET total acumulado
+GET http://localhost:9090/pedidos/total
+POST crear
+jsonPOST http://localhost:9090/pedidos
+Content-Type: application/json
+
+{
+    "usuarioId": 1,
+    "direccionId": 1,
+    "montoTotal": 8990.00
+}
+PUT actualizar
+jsonPUT http://localhost:9090/pedidos/1
+Content-Type: application/json
+
+{
+    "usuarioId": 1,
+    "direccionId": 1,
+    "montoTotal": 8990.00
+}
+DELETE eliminar
+DELETE http://localhost:9090/pedidos/1
+
+----------------------------------------------------------------------------------
+
+
+pedido-detalle-service — Puerto 9096
+GET todos
+GET http://localhost:9090/pedido-detalles
+GET por ID
+GET http://localhost:9090/pedido-detalles/1
+GET por orden
+GET http://localhost:9090/pedido-detalles/pedido/1
+GET total por orden
+GET http://localhost:9090/pedido-detalles/subtotal/1
+POST crear
+jsonPOST http://localhost:9090/pedido-detalles
+Content-Type: application/json
+
+{
+    "pedidoId": 1,
+    "productoId": 2,
+    "cantidad": 2,
+    "precioUnidad": 8990.00
+}
+PUT actualizar
+jsonPUT http://localhost:9090/pedido-detalles/1
+Content-Type: application/json
+
+{
+    "pedidoId": 1,
+    "productoId": 2,
+    "cantidad": 3,
+    "precioUnidad": 8990.00
+}
+DELETE eliminar
+DELETE http://localhost:9090/pedido-detalles/1
+
+----------------------------------------------------------------------------------
+
+envio-service — Puerto 9097
+GET todos
+GET http://localhost:9090/envios
+GET por ID
+GET http://localhost:9090/envios/1
+GET por rango de fechas
+GET http://localhost:9090/envios/rango-fechas?ini=2026-01-01T00:00:00&fin=2026-03-31T23:59:59
+POST crear
+jsonPOST http://localhost:9090/envios
+Content-Type: application/json
+
+{
+    "pedidoId": 4
+}
+PUT actualizar
+jsonPUT http://localhost:9090/envios/1
+Content-Type: application/json
+
+{
+    "pedidoId": 4
+}
+DELETE eliminar
+DELETE http://localhost:9090/envios/1
+
+----------------------------------------------------------------------------------
+
+pago-service — Puerto 9098
+GET todos
+GET http://localhost:9090/pagos
+GET por ID
+GET http://localhost:9090/pagos/1
+GET por método de pago
+GET http://localhost:9090/pagos/metodo/Credito
+GET total recaudado
+GET http://localhost:9090/pagos/total
+POST crear
+jsonPOST http://localhost:9090/pagos
+Content-Type: application/json
+
+{
+    "pedidoId": 4,
+    "monto": 9990.00,
+    "metodo": "Transferencia",
+    "estado": "Pendiente"
+}
+PUT actualizar
+jsonPUT http://localhost:9090/pagos/1
+Content-Type: application/json
+
+{
+    "pedidoId": 1,
+    "monto": 16980.00,
+    "metodo": "Credito",
+    "estado": "Completado"
+}
+DELETE eliminar
+DELETE http://localhost:9090/pagos/1

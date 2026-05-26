@@ -25,6 +25,8 @@ Revisado // pedido (cambio en repository metodo query en consulta SELECT: total 
 Revisar // direccion 
             -> dependecia repetida (cambiado)
             -> dependecia repetida OTRA VEZ
+            -> revisar validacion endpoint GET(/direcciones/default/{usuarioId})
+                DEBE CREAR UNICAMENTE UNA DIRECCION DEFAULT
 
 Revisar // pedido-detalle (cambio en properties: hibernate desactivado)
                 (cambio en repository metodo BigDecimal: @Param pedidoId --> pedido_id)
@@ -39,3 +41,5 @@ Revisar // direccion (cambio a properties y webClient: usuario.service.url --> u
 Revisar // ms comunicados Error 503 (cambiar properties como ms direccion)
                 --> pedido POST (503 Service Unavailable)(haciendo uso de test RequestMapping)
                 --> envio PUT (500 Internal Server Error)
+
+Revisar // api (cambio a version 4.0.0 a 4.0.6)

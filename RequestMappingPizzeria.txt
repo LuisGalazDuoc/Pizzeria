@@ -37,7 +37,7 @@ GET todos
 GET http://localhost:9090/direcciones
 GET por ID
 GET http://localhost:9090/direcciones/1
-GET por customer
+GET por usuario
 GET http://localhost:9090/direcciones/usuario/1
 GET dirección por defecto
 GET http://localhost:9090/direcciones/default/1
@@ -92,14 +92,14 @@ DELETE http://localhost:9090/categorias/1
 
 ----------------------------------------------------------------------------------
 
-producto-service — Puerto 9094
+producto-service — Puerto 9094      FUNCIONA
 GET todos
 GET http://localhost:9090/productos
 GET por ID
 GET http://localhost:9090/productos/1
 GET por categoría
 GET http://localhost:9090/productos/categoria/1
-GET disponibles
+GET productos disponibles
 GET http://localhost:9090/productos/disponible
 POST crear
 jsonPOST http://localhost:9090/productos
@@ -128,7 +128,7 @@ DELETE http://localhost:9090/productos/1
 
 ----------------------------------------------------------------------------------
 
-pedido-service — Puerto 9095
+pedido-service — Puerto 9095        FUNCIONA
 GET todos
 GET http://localhost:9090/pedidos
 GET por ID

@@ -1,0 +1,68 @@
+2026-06-17 17:24:58 [main] INFO  c.p.p.PagoServiceApplication - Starting PagoServiceApplication using Java 25.0.1 with PID 12708 (C:\Users\adria\Downloads\AVANCE-ADRIAN\Pizzeria\pago-service\target\classes started by adria in C:\Users\adria\Downloads\AVANCE-ADRIAN\Pizzeria\pago-service)
+2026-06-17 17:24:58 [main] DEBUG c.p.p.PagoServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-17 17:24:58 [main] INFO  c.p.p.PagoServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-17 17:24:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17 17:24:59 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interface.
+2026-06-17 17:25:00 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9098 (http)
+2026-06-17 17:25:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-17 17:25:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-17 17:25:00 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2310 ms
+2026-06-17 17:25:00 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17 17:25:00 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-17 17:25:01 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17 17:25:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-17 17:25:01 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f9a8ddc
+2026-06-17 17:25:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-17 17:25:01 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-17 17:25:01 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_pago?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_pago/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17 17:25:02 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17 17:25:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17 17:25:02 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-17 17:25:06 [main] INFO  liquibase.changelog - Creating database changelog table with name: bd_pago.databasechangelog
+2026-06-17 17:25:06 [main] INFO  liquibase.changelog - Reading from bd_pago.databasechangelog
+2026-06-17 17:25:06 [main] INFO  liquibase.snapshot - Creating snapshot
+2026-06-17 17:25:06 [main] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-06-17 17:25:06 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-06-17 17:25:06 [main] INFO  liquibase.command - Using deploymentId: 1731504158
+2026-06-17 17:25:06 [main] INFO  liquibase.changelog - Reading from bd_pago.databasechangelog
+2026-06-17 17:25:06 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-06-17 17:25:06 [main] INFO  liquibase.ui - Name 'pk_pago' ignored for PRIMARY key.
+2026-06-17 17:25:06 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-06-17 17:25:06 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 55ms
+2026-06-17 17:25:06 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-06-17 17:25:06 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-06-17 17:25:06 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 11ms
+2026-06-17 17:25:06 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-17 17:25:06 [main] INFO  liquibase.util - Run:                          2
+2026-06-17 17:25:06 [main] INFO  liquibase.util - Previously run:               0
+2026-06-17 17:25:06 [main] INFO  liquibase.util - Filtered out:                 0
+2026-06-17 17:25:06 [main] INFO  liquibase.util - -------------------------------
+2026-06-17 17:25:06 [main] INFO  liquibase.util - Total change sets:            2
+2026-06-17 17:25:06 [main] INFO  liquibase.util - Update summary generated
+2026-06-17 17:25:06 [main] INFO  liquibase.command - Update command completed successfully.
+2026-06-17 17:25:06 [main] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-06-17 17:25:07 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2026-06-17 17:25:07 [main] INFO  liquibase.command - Command execution complete
+2026-06-17 17:25:07 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17 17:25:07 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9098 (http) with context path '/'
+2026-06-17 17:25:07 [main] INFO  c.p.p.PagoServiceApplication - Started PagoServiceApplication in 10.483 seconds (process running for 11.067)
+2026-06-17 17:54:02 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a25bd50 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-06-17 17:54:02 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@d968d7c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-06-17 17:54:18 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d8f1e0b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-06-17 17:54:25 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16dd32d7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-06-17 17:54:41 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-17 17:54:41 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-17 17:54:41 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17 17:54:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-17 17:54:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

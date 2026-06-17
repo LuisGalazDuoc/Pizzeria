@@ -15,7 +15,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 public class SecurityConfig {
     
-    @Value("${SECRET}")
+    @Value("${spring.security.oauth2.resourceserver.jwt.secret-key}")
     private String secret;
 
     @Bean

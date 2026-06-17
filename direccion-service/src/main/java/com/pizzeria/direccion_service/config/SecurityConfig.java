@@ -1,4 +1,4 @@
-package com.example.usuario_service.config;
+package com.pizzeria.direccion_service.config;
 import java.nio.charset.StandardCharsets;
 
 import javax.crypto.spec.SecretKeySpec;

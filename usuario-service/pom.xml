@@ -78,6 +78,7 @@
     		<groupId>org.springframework.boot</groupId>
     		<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		<!--DEPENDENCIAS PARA LA SWAGGER-->
 		<dependency>
     		<groupId>org.springdoc</groupId>
     			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>

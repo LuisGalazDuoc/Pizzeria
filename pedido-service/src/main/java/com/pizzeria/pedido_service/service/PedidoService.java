@@ -97,7 +97,7 @@ public class PedidoService {
         pedido.setUsuarioId(dto.getUsuarioId());
         pedido.setDireccionId(dto.getDireccionId());
         pedido.setMontoTotal(dto.getMontoTotal());
-        ///order.setStatus(dto.getStatus());    --->    Para futuro uso
+        ///pedido.setStatus(dto.getEstado());    --->    Para futuro uso
         
         Pedido actualizado = pedidoRepository.save(pedido);
         log.info("Pedido actualizado exitosamente con ID: {}", actualizado.getPedidoId());

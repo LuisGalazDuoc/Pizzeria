@@ -14,6 +14,6 @@ public class PedidoDTO {
     private Long usuarioId;
     private Long direccionId;
     private BigDecimal montoTotal;
-    ///private PedidoEstado status;     --->    Trabajarlo con atributo enum 
+    ///private PedidoEstado estado;     --->    Trabajarlo con atributo enum 
 
 }

@@ -1,0 +1,83 @@
+x-common-env: &common-env
+  secret-key: " esta_es_mi_compleja_clave_secreta"
+
+services:
+
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "9090:9090"
+    environment:
+      <<: *common-env
+    depends_on:
+      - auth-service
+      - categoria-service
+      - direccion-service
+      - envio-service
+      - pago-service
+      - pedido-detalle-service
+      - pedido-service
+      - producto-service
+      - usuario-service
+
+
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "9099:9099"
+    environment:
+      <<: *common-env
+
+  usuario-service:
+    build: ./usuario-service
+    ports:
+      - "9091:9091"
+    environment:
+      <<: *common-env
+
+  direccion-service:
+    build: ./direccion-service
+    ports:
+      - "9092:9092"
+    environment:
+      <<: *common-env
+
+  categoria-service:
+    build: ./categoria-service
+    ports:
+      - "9093:9093"
+    environment:
+      <<: *common-env
+
+  producto-service:
+    build: ./producto-service
+    ports:
+      - "9094:9094"
+    environment:
+      <<: *common-env
+  pedido-service:
+    build: ./pedido-service
+    ports:
+      - "9095:9095"
+    environment:
+      <<: *common-env 
+  pedido-detalle-service:
+    build: ./pedido-detalle-service
+    ports:
+      - "9096:9096"
+    environment:
+      <<: *common-env
+  
+  envio-service:
+    build: ./producto-service
+    ports:
+      - "9097:9097"
+    environment:
+      <<: *common-env
+  pago-service:
+    build: ./pago-service
+    ports:
+      - "9098:9098"
+    environment:
+      <<: *common-env
+  

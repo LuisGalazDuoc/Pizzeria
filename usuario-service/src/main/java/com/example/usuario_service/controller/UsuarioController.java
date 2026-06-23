@@ -17,6 +17,7 @@ import com.example.usuario_service.dto.UsuarioDTO;
 import com.example.usuario_service.model.Usuario;
 import com.example.usuario_service.service.UsuarioService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -47,14 +48,14 @@ public class UsuarioController {
     }
 
     @PostMapping
-    public ResponseEntity<Usuario> createUsuario(@RequestBody UsuarioDTO dto) {
+    public ResponseEntity<Usuario> createUsuario(@Valid @RequestBody UsuarioDTO dto) {
         log.info("POST /usuarios - Creando usuario con RUT: {}", dto.getRut());
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(usuarioService.createUsuario(dto));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Usuario> updateUsuario(@PathVariable Long id, @RequestBody UsuarioDTO dto) {
+    public ResponseEntity<Usuario> updateUsuario(@PathVariable Long id, @Valid @RequestBody UsuarioDTO dto) {
         log.info("PUT /usuarios/{} - Actualizando usuario", id);
         return ResponseEntity.ok(usuarioService.updateUsuario(id, dto));
     }

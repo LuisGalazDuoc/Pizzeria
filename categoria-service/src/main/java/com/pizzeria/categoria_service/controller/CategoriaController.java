@@ -16,6 +16,7 @@ import com.pizzeria.categoria_service.dto.CategoriaDTO;
 import com.pizzeria.categoria_service.model.Categoria;
 import com.pizzeria.categoria_service.service.CategoriaService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -41,13 +42,13 @@ public class CategoriaController {
     }
 
     @PostMapping
-    public ResponseEntity<Categoria> createCategoria(@RequestBody CategoriaDTO dto) {
+    public ResponseEntity<Categoria> createCategoria(@Valid @RequestBody CategoriaDTO dto) {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(categoriaService.createCategoria(dto));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Categoria> updateCategoria(@PathVariable Long id, @RequestBody CategoriaDTO dto) {
+    public ResponseEntity<Categoria> updateCategoria(@PathVariable Long id, @Valid @RequestBody CategoriaDTO dto) {
         return ResponseEntity.ok(categoriaService.updateCategoria(id, dto));
     }
 

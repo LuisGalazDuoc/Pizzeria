@@ -19,6 +19,7 @@ import com.pizzeria.envio_service.dto.EnvioDTO;
 import com.pizzeria.envio_service.model.Envio;
 import com.pizzeria.envio_service.service.EnvioService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -46,7 +47,7 @@ public class EnvioController {
     }
 
     @PostMapping
-    public ResponseEntity<Envio> createEnvio(@RequestBody EnvioDTO dto) {
+    public ResponseEntity<Envio> createEnvio(@Valid @RequestBody EnvioDTO dto) {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(envioService.createEnvio(dto));
     }

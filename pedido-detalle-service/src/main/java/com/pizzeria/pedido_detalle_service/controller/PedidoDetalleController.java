@@ -18,6 +18,7 @@ import com.pizzeria.pedido_detalle_service.dto.PedidoDetalleDTO;
 import com.pizzeria.pedido_detalle_service.model.PedidoDetalle;
 import com.pizzeria.pedido_detalle_service.service.PedidoDetalleService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -48,7 +49,7 @@ public class PedidoDetalleController {
     }
 
     @PostMapping
-    public ResponseEntity<PedidoDetalle> createPedidoDetalle(@RequestBody PedidoDetalleDTO dto) {
+    public ResponseEntity<PedidoDetalle> createPedidoDetalle(@Valid @RequestBody PedidoDetalleDTO dto) {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(pedidoDetalleService.createDetalle(dto));
     }
@@ -56,7 +57,7 @@ public class PedidoDetalleController {
     @PutMapping("/{id}")
     public ResponseEntity<PedidoDetalle> updatePedidoDetalle(
             @PathVariable Long id,
-            @RequestBody PedidoDetalleDTO dto) {
+            @Valid @RequestBody PedidoDetalleDTO dto) {
         return ResponseEntity.ok(pedidoDetalleService.updateDetalle(id, dto));
     }
 

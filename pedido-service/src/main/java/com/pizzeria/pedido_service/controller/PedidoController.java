@@ -21,6 +21,7 @@ import com.pizzeria.pedido_service.dto.PedidoDTO;
 import com.pizzeria.pedido_service.model.Pedido;
 import com.pizzeria.pedido_service.service.PedidoService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -65,7 +66,7 @@ public class PedidoController {
     }
 
     @PostMapping
-    public ResponseEntity<Pedido> createPedido(@RequestBody PedidoDTO dto) {
+    public ResponseEntity<Pedido> createPedido(@Valid @RequestBody PedidoDTO dto) {
         log.info("POST /pedidos - Creando pedido para usuario ID: {}", dto.getUsuarioId());
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(pedidoService.createPedido(dto));
@@ -74,7 +75,7 @@ public class PedidoController {
     @PutMapping("/{id}")
     public ResponseEntity<Pedido> updatePedido(
             @PathVariable Long id,
-            @RequestBody PedidoDTO dto) {
+            @Valid @RequestBody PedidoDTO dto) {
         log.info("PUT /pedidos/{} - Actualizando pedido", id);
         return ResponseEntity.ok(pedidoService.updatePedido(id, dto));
     }

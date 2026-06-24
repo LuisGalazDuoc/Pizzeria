@@ -50,13 +50,13 @@ public class EnvioControllerV2 {
 
     @GetMapping("/rango-fechas")
     public ResponseEntity<CollectionModel<EntityModel<Envio>>> getEnvioByRangoFechas(
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime start,
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime end) {
-        List<EntityModel<Envio>> envios = envioService.getEnviosByRangoFechas(start, end)
+            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime inicio,
+            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime fin) {
+        List<EntityModel<Envio>> envios = envioService.getEnviosByRangoFechas(inicio, fin)
                 .stream().map(assembler::toModel).collect(Collectors.toList());
 
         CollectionModel<EntityModel<Envio>> collection = CollectionModel.of(envios,
-                linkTo(methodOn(EnvioControllerV2.class).getEnvioByRangoFechas(start, end)).withSelfRel());
+                linkTo(methodOn(EnvioControllerV2.class).getEnvioByRangoFechas(inicio, fin)).withSelfRel());
 
         return ResponseEntity.ok(collection);
     }

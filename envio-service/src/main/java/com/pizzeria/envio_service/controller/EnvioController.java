@@ -41,9 +41,9 @@ public class EnvioController {
 
     @GetMapping("/rango-fechas")
     public ResponseEntity<List<Envio>> getEnviosByRangoFechas(
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime ini,
+            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime inicio,
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime fin) {
-        return ResponseEntity.ok(envioService.getEnviosByRangoFechas(ini, fin));
+        return ResponseEntity.ok(envioService.getEnviosByRangoFechas(inicio, fin));
     }
 
     @PostMapping

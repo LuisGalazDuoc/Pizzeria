@@ -17,6 +17,7 @@ import com.pizzeria.direccion_service.dto.DireccionDTO;
 import com.pizzeria.direccion_service.model.Direccion;
 import com.pizzeria.direccion_service.service.DireccionService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -47,7 +48,7 @@ public class DireccionController {
     }
 
     @PostMapping
-    public ResponseEntity<Direccion> createDireccion(@RequestBody DireccionDTO dto) {
+    public ResponseEntity<Direccion> createDireccion(@Valid @RequestBody DireccionDTO dto) {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(direccionService.createDireccion(dto));
     }
@@ -55,7 +56,7 @@ public class DireccionController {
     @PutMapping("/{id}")
     public ResponseEntity<Direccion> updateDireccion(
             @PathVariable Long id,
-            @RequestBody DireccionDTO dto) {
+            @Valid @RequestBody DireccionDTO dto) {
         return ResponseEntity.ok(direccionService.updateDireccion(id, dto));
     }
 

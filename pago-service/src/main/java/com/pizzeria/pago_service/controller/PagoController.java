@@ -19,6 +19,7 @@ import com.pizzeria.pago_service.model.MetodoPago;
 import com.pizzeria.pago_service.model.Pago;
 import com.pizzeria.pago_service.service.PagoService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -55,14 +56,14 @@ public class PagoController {
     }
 
     @PostMapping
-    public ResponseEntity<Pago> createPago(@RequestBody PagoDTO dto) {
+    public ResponseEntity<Pago> createPago(@Valid @RequestBody PagoDTO dto) {
         log.info("POST /pagos - Creando pago para orden ID: {}", dto.getPedidoId());
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(pagoService.createPago(dto));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Pago> updatePago(@PathVariable Long id, @RequestBody PagoDTO dto) {
+    public ResponseEntity<Pago> updatePago(@PathVariable Long id, @Valid @RequestBody PagoDTO dto) {
         log.info("PUT /pagos/{} - Actualizando pago", id);
         return ResponseEntity.ok(pagoService.updatePago(id, dto));
     }

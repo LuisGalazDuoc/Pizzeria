@@ -19,6 +19,7 @@ import com.pizzeria.envio_service.dto.EnvioDTO;
 import com.pizzeria.envio_service.model.Envio;
 import com.pizzeria.envio_service.service.EnvioService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -29,24 +30,24 @@ public class EnvioController {
     private final EnvioService envioService;
 
     @GetMapping
-    public ResponseEntity<List<Envio>> getAllPedidos() {
-        return ResponseEntity.ok(envioService.getAllPedidos());
+    public ResponseEntity<List<Envio>> getAllEnvios() {
+        return ResponseEntity.ok(envioService.getAllEnvios());
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Envio> getPedidoById(@PathVariable Long id) {
-        return ResponseEntity.ok(envioService.getPedidoById(id));
+    public ResponseEntity<Envio> getEnvioById(@PathVariable Long id) {
+        return ResponseEntity.ok(envioService.getEnvioById(id));
     }
 
     @GetMapping("/rango-fechas")
-    public ResponseEntity<List<Envio>> getPedidosByRangoFechas(
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime ini,
+    public ResponseEntity<List<Envio>> getEnviosByRangoFechas(
+            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime inicio,
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime fin) {
-        return ResponseEntity.ok(envioService.getPedidosByRangoFechas(ini, fin));
+        return ResponseEntity.ok(envioService.getEnviosByRangoFechas(inicio, fin));
     }
 
     @PostMapping
-    public ResponseEntity<Envio> createEnvio(@RequestBody EnvioDTO dto) {
+    public ResponseEntity<Envio> createEnvio(@Valid @RequestBody EnvioDTO dto) {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(envioService.createEnvio(dto));
     }

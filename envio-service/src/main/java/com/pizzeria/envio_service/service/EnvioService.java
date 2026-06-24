@@ -20,18 +20,18 @@ public class EnvioService {
     private final EnvioRepository envioRepository;
     private final WebClient pedidoWebClient;
 
-    public List<Envio> getAllPedidos() {
+    public List<Envio> getAllEnvios() {
         return envioRepository.findAll();
     }
 
-    public Envio getPedidoById(Long id) {
+    public Envio getEnvioById(Long id) {
         return envioRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException(
                         "Delivery no encontrado con ID: " + id
                 ));
     }
 
-    public List<Envio> getPedidosByRangoFechas(LocalDateTime ini, LocalDateTime fin) {
+    public List<Envio> getEnviosByRangoFechas(LocalDateTime ini, LocalDateTime fin) {
         return envioRepository.findByFechaEnvioBetween(ini, fin);
     }
 

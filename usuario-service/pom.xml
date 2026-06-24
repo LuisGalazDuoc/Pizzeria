@@ -78,11 +78,13 @@
     		<groupId>org.springframework.boot</groupId>
     		<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		<!--DEPENDENCIAS PARA LA SWAGGER-->
 		<dependency>
     		<groupId>org.springdoc</groupId>
     			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     			<version>3.0.3</version>
 		</dependency>
+		<!--DEPENDENCIAS PARA LA HATEOAS-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
@@ -96,6 +98,17 @@
 		<dependency>
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
+		</dependency>
+		<!--DEPENDENCIAS PARA LA VALIDACIONES-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		<!--DEPENDENCIAS PARA LA PRUEBAS UNITARIAS-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

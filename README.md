@@ -90,3 +90,4 @@ El gateway corre en el puerto 9090 y enruta las peticiones mediante los siguient
 ## 10. Notas adicionales
 - El gateway actual usa una clave JWT de ejemplo para recursos protegidos.
 - Para entornos reales, reemplazar secretos y credenciales por valores seguros.
+ ./mvnw clean package -DskipTests

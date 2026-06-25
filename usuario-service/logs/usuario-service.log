@@ -2,3 +2,382 @@
 2026-06-25 00:01:03 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2026-06-25 00:01:03 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 38 ms
 2026-06-25 00:01:03 [http-nio-9091-exec-8] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 413 ms
+2026-06-25 16:06:31 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 22900 (C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service\target\classes started by alons in C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service)
+2026-06-25 16:06:31 [restartedMain] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-25 16:06:31 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-25 16:06:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-25 16:06:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-25 16:06:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 16:06:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 179 ms. Found 1 JPA repository interface.
+2026-06-25 16:06:37 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-06-25 16:06:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 16:06:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-25 16:06:38 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 6063 ms
+2026-06-25 16:06:38 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-25 16:06:38 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-25 16:06:40 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 16:06:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-25 16:06:42 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d696aff
+2026-06-25 16:06:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-25 16:06:42 [restartedMain] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-25 16:06:42 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-25 16:06:45 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 16:06:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:06:45 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.changelog - Creating database changelog table with name: bd_usuario.databasechangelog
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.snapshot - Creating snapshot
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.command - Using deploymentId: 2418006278
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:06:49 [restartedMain] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.ui - Name 'pk_usuario' ignored for PRIMARY key.
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.changelog - Custom SQL executed
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 74ms
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.changelog - Custom SQL executed
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 16ms
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.util - Run:                          2
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.util - Previously run:               0
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.util - Filtered out:                 0
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.util - -------------------------------
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.util - Total change sets:            2
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.util - Update summary generated
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.command - Update command completed successfully.
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.lockservice - Successfully released change log lock
+2026-06-25 16:06:50 [restartedMain] INFO  liquibase.command - Command execution complete
+2026-06-25 16:06:50 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 16:06:52 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-06-25 16:06:52 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 21.501 seconds (process running for 22.458)
+2026-06-25 16:06:53 [restartedMain] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-25 16:06:53 [restartedMain] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-25 16:07:46 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-25 16:07:46 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-25 16:07:46 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-25 16:07:48 [http-nio-9091-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 784 ms
+2026-06-25 16:17:20 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-25 16:17:20 [Thread-1] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25 16:17:20 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-25 16:17:20 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:17:20 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-25 16:17:20 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-25 16:17:20 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 22900 (C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service\target\classes started by alons in C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service)
+2026-06-25 16:17:20 [restartedMain] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-25 16:17:20 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-25 16:17:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 16:17:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2026-06-25 16:17:21 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-06-25 16:17:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 16:17:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-25 16:17:21 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 737 ms
+2026-06-25 16:17:21 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-25 16:17:21 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 16:17:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-06-25 16:17:21 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c7215bb
+2026-06-25 16:17:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-06-25 16:17:21 [restartedMain] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-25 16:17:21 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-25 16:17:21 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 16:17:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.util - Run:                          0
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.util - Previously run:               2
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.util - Filtered out:                 0
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.util - -------------------------------
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.util - Total change sets:            2
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.util - Update summary generated
+2026-06-25 16:17:22 [restartedMain] INFO  liquibase.command - Command execution complete
+2026-06-25 16:17:22 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 16:17:22 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-06-25 16:17:22 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 2.018 seconds (process running for 652.576)
+2026-06-25 16:17:22 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-25 16:18:03 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-25 16:18:03 [Thread-5] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25 16:18:03 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-25 16:18:03 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:18:03 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-06-25 16:18:03 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-06-25 16:18:03 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 22900 (C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service\target\classes started by alons in C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service)
+2026-06-25 16:18:03 [restartedMain] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-25 16:18:03 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-25 16:18:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 16:18:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2026-06-25 16:18:04 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-06-25 16:18:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 16:18:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-25 16:18:04 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 581 ms
+2026-06-25 16:18:04 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-25 16:18:04 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 16:18:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-06-25 16:18:04 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3691211c
+2026-06-25 16:18:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-06-25 16:18:04 [restartedMain] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-25 16:18:04 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-25 16:18:04 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 16:18:04 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.util - Run:                          0
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.util - Previously run:               2
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.util - Filtered out:                 0
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.util - -------------------------------
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.util - Total change sets:            2
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.util - Update summary generated
+2026-06-25 16:18:04 [restartedMain] INFO  liquibase.command - Command execution complete
+2026-06-25 16:18:04 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 16:18:05 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-06-25 16:18:05 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 1.583 seconds (process running for 695.052)
+2026-06-25 16:18:05 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-25 16:18:12 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-25 16:18:12 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-25 16:18:12 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-25 16:18:23 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25 16:18:23 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-25 16:18:23 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:18:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-06-25 16:18:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-06-25 16:36:46 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 19672 (C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service\target\classes started by alons in C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service)
+2026-06-25 16:36:46 [restartedMain] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-25 16:36:46 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-25 16:36:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-25 16:36:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-25 16:36:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 16:36:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2026-06-25 16:36:49 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-06-25 16:36:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 16:36:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-25 16:36:49 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2300 ms
+2026-06-25 16:36:49 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-25 16:36:49 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-25 16:36:50 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 16:36:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-25 16:36:50 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@641714fc
+2026-06-25 16:36:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-25 16:36:50 [restartedMain] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-25 16:36:50 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-25 16:36:51 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 16:36:51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:36:51 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.util - Run:                          0
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.util - Previously run:               2
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.util - Filtered out:                 0
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.util - -------------------------------
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.util - Total change sets:            2
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.util - Update summary generated
+2026-06-25 16:36:54 [restartedMain] INFO  liquibase.command - Command execution complete
+2026-06-25 16:36:54 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 16:36:55 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-06-25 16:36:55 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 9.34 seconds (process running for 10.13)
+2026-06-25 16:40:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-25 16:40:13 [Thread-1] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25 16:40:13 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-25 16:40:13 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:40:13 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-25 16:40:13 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-25 16:40:13 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 19672 (C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service\target\classes started by alons in C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service)
+2026-06-25 16:40:13 [restartedMain] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-25 16:40:13 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-25 16:40:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 16:40:14 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2026-06-25 16:40:14 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-06-25 16:40:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 16:40:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-25 16:40:14 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 856 ms
+2026-06-25 16:40:14 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-25 16:40:14 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 16:40:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-06-25 16:40:14 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e89d1c7
+2026-06-25 16:40:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-06-25 16:40:14 [restartedMain] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-25 16:40:14 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-25 16:40:14 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 16:40:14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.util - Run:                          0
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.util - Previously run:               2
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.util - Filtered out:                 0
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.util - -------------------------------
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.util - Total change sets:            2
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.util - Update summary generated
+2026-06-25 16:40:15 [restartedMain] INFO  liquibase.command - Command execution complete
+2026-06-25 16:40:15 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 16:40:15 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-06-25 16:40:15 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 1.791 seconds (process running for 210.141)
+2026-06-25 16:40:15 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-25 16:42:12 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25 16:42:12 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-25 16:42:12 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:42:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-06-25 16:42:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-06-25 16:43:02 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 24852 (C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service\target\classes started by alons in C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service)
+2026-06-25 16:43:02 [restartedMain] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-25 16:43:02 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-25 16:43:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-25 16:43:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-25 16:43:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 16:43:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2026-06-25 16:43:04 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-06-25 16:43:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 16:43:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-25 16:43:05 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2408 ms
+2026-06-25 16:43:05 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-25 16:43:05 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-25 16:43:06 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 16:43:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-25 16:43:06 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d1ecbf8
+2026-06-25 16:43:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-25 16:43:06 [restartedMain] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-25 16:43:06 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-25 16:43:07 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 16:43:07 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:43:07 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.util - Run:                          0
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.util - Previously run:               2
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.util - Filtered out:                 0
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.util - -------------------------------
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.util - Total change sets:            2
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.util - Update summary generated
+2026-06-25 16:43:10 [restartedMain] INFO  liquibase.command - Command execution complete
+2026-06-25 16:43:10 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 16:43:11 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-06-25 16:43:11 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 9.745 seconds (process running for 10.63)
+2026-06-25 16:51:28 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-25 16:51:28 [Thread-1] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25 16:51:28 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-25 16:51:28 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:51:28 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-25 16:51:28 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-25 16:51:28 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Starting UsuarioServiceApplication using Java 24.0.2 with PID 24852 (C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service\target\classes started by alons in C:\Users\alons\Downloads\ProyectoFinal\Pizzeria\usuario-service)
+2026-06-25 16:51:28 [restartedMain] DEBUG c.e.u.UsuarioServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-25 16:51:28 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-25 16:51:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 16:51:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2026-06-25 16:51:29 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-06-25 16:51:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 16:51:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-25 16:51:29 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 683 ms
+2026-06-25 16:51:29 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-25 16:51:29 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 16:51:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-06-25 16:51:29 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66cf2511
+2026-06-25 16:51:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-06-25 16:51:29 [restartedMain] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-25 16:51:29 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuario?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuario/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-25 16:51:29 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 16:51:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.changelog - Reading from bd_usuario.databasechangelog
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.util - Run:                          0
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.util - Previously run:               2
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.util - Filtered out:                 0
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.util - -------------------------------
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.util - Total change sets:            2
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.util - Update summary generated
+2026-06-25 16:51:30 [restartedMain] INFO  liquibase.command - Command execution complete
+2026-06-25 16:51:30 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 16:51:30 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2026-06-25 16:51:30 [restartedMain] INFO  c.e.u.UsuarioServiceApplication - Started UsuarioServiceApplication in 1.733 seconds (process running for 509.661)
+2026-06-25 16:51:30 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-25 16:51:45 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25 16:51:45 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-25 16:51:45 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 16:51:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-06-25 16:51:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.

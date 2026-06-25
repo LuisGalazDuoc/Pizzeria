@@ -28,7 +28,19 @@ public class SecurityConfig {
         return http
             .csrf(csrf -> csrf.disable())
             .authorizeExchange(exchanges -> exchanges
-                .pathMatchers("/auth/**").permitAll()
+                .pathMatchers("/swagger-ui.html",
+                "/swagger-ui/**",
+                "/v3/api-docs/**",
+                "/webjars/**",
+                "/usuarios/v3/api-docs",
+                "/direcciones/v3/api-docs",
+                "/categorias/v3/api-docs",
+                "/productos/v3/api-docs",
+                "/pedidos/v3/api-docs",
+                "/pedido-detalles/v3/api-docs",
+                "/envios/v3/api-docs",
+                "/pagos/v3/api-docs",
+                "/auth/v3/api-docs").permitAll()
                 .anyExchange().authenticated()
             )
             .oauth2ResourceServer(oauth2 -> oauth2

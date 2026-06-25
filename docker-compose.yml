@@ -26,58 +26,58 @@ services:
     ports:
       - "9099:9099"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
 
   usuario-service:
     build: ./usuario-service
     ports:
       - "9091:9091"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
 
   direccion-service:
     build: ./direccion-service
     ports:
       - "9092:9092"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
 
   categoria-service:
     build: ./categoria-service
     ports:
       - "9093:9093"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
 
   producto-service:
     build: ./producto-service
     ports:
       - "9094:9094"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
   pedido-service:
     build: ./pedido-service
     ports:
       - "9095:9095"
     environment:
-      <<: *common-env 
+      - DB_HOST=host.docker.internal 
   pedido-detalle-service:
     build: ./pedido-detalle-service
     ports:
       - "9096:9096"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
   
   envio-service:
     build: ./producto-service
     ports:
       - "9097:9097"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
   pago-service:
     build: ./pago-service
     ports:
       - "9098:9098"
     environment:
-      <<: *common-env
+      - DB_HOST=host.docker.internal
   

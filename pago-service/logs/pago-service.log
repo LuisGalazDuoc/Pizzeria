@@ -66,3 +66,199 @@
 2026-06-17 17:54:41 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-06-17 17:54:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-06-17 17:54:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-24 23:54:28 [main] INFO  c.p.p.PagoServiceApplication - Starting PagoServiceApplication using Java 26.0.1 with PID 32324 (D:\Programacion\Proyectos\NetBeans-Java\DevpFullstack1\Proyecto Semestral\Pizzeria\pago-service\target\classes started by Mascotron in D:\Programacion\Proyectos\NetBeans-Java\DevpFullstack1\Proyecto Semestral\Pizzeria\pago-service)
+2026-06-24 23:54:28 [main] DEBUG c.p.p.PagoServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-24 23:54:28 [main] INFO  c.p.p.PagoServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 23:54:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 23:54:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2026-06-24 23:54:29 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9098 (http)
+2026-06-24 23:54:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-24 23:54:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-24 23:54:30 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1357 ms
+2026-06-24 23:54:30 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-24 23:54:30 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-24 23:54:30 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 23:54:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-24 23:54:30 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@523ade68
+2026-06-24 23:54:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-24 23:54:30 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-24 23:54:30 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_pago?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_pago/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 23:54:31 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 23:54:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 23:54:31 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-24 23:54:33 [main] INFO  liquibase.changelog - Creating database changelog table with name: bd_pago.databasechangelog
+2026-06-24 23:54:33 [main] INFO  liquibase.changelog - Reading from bd_pago.databasechangelog
+2026-06-24 23:54:33 [main] INFO  liquibase.snapshot - Creating snapshot
+2026-06-24 23:54:33 [main] INFO  liquibase.ui - Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2026-06-24 23:54:34 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2026-06-24 23:54:34 [main] INFO  liquibase.command - Using deploymentId: 2359672349
+2026-06-24 23:54:34 [main] INFO  liquibase.changelog - Reading from bd_pago.databasechangelog
+2026-06-24 23:54:34 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::001::pizzeria
+2026-06-24 23:54:34 [main] INFO  liquibase.ui - Name 'pk_pago' ignored for PRIMARY key.
+2026-06-24 23:54:34 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-06-24 23:54:34 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::001::pizzeria ran successfully in 27ms
+2026-06-24 23:54:34 [main] INFO  liquibase.ui - Running Changeset: db/changelog/db.changelog.sql::002::pizzeria
+2026-06-24 23:54:34 [main] INFO  liquibase.changelog - Custom SQL executed
+2026-06-24 23:54:34 [main] INFO  liquibase.changelog - ChangeSet db/changelog/db.changelog.sql::002::pizzeria ran successfully in 15ms
+2026-06-24 23:54:34 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-24 23:54:34 [main] INFO  liquibase.util - Run:                          2
+2026-06-24 23:54:34 [main] INFO  liquibase.util - Previously run:               0
+2026-06-24 23:54:34 [main] INFO  liquibase.util - Filtered out:                 0
+2026-06-24 23:54:34 [main] INFO  liquibase.util - -------------------------------
+2026-06-24 23:54:34 [main] INFO  liquibase.util - Total change sets:            2
+2026-06-24 23:54:34 [main] INFO  liquibase.util - Update summary generated
+2026-06-24 23:54:34 [main] INFO  liquibase.command - Update command completed successfully.
+2026-06-24 23:54:34 [main] INFO  liquibase.ui - Liquibase: Update has been successful. Rows affected: 10
+2026-06-24 23:54:34 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2026-06-24 23:54:34 [main] INFO  liquibase.command - Command execution complete
+2026-06-24 23:54:34 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 23:54:34 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9098 (http) with context path '/'
+2026-06-24 23:54:34 [main] INFO  c.p.p.PagoServiceApplication - Started PagoServiceApplication in 6.59 seconds (process running for 6.992)
+2026-06-24 23:54:35 [main] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 1048, SQLState: 23000
+2026-06-24 23:54:35 [main] WARN  org.hibernate.orm.jdbc.error - Column 'pedido_id' cannot be null
+2026-06-24 23:54:35 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-24 23:54:35 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Column 'pedido_id' cannot be null] [update pago set estado=?,fecha_pago=?,metodo=?,monto=?,pedido_id=? where pago_id=?]; SQL [update pago set estado=?,fecha_pago=?,metodo=?,monto=?,pedido_id=? where pago_id=?]; constraint [pedido_id]
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:169)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:131)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:105)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:223)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:557)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:687)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:408)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy141.save(Unknown Source)
+	at com.pizzeria.pago_service.config.DataLoader.run(DataLoader.java:35)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.pizzeria.pago_service.PagoServiceApplication.main(PagoServiceApplication.java:10)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Column 'pedido_id' cannot be null] [update pago set estado=?,fecha_pago=?,metodo=?,monto=?,pedido_id=? where pago_id=?]
+	at org.hibernate.dialect.MySQLDialect.lambda$buildSQLExceptionConversionDelegate$0(MySQLDialect.java:1273)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:184)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.doStaticUpdate(UpdateCoordinatorStandard.java:805)
+	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.performUpdate(UpdateCoordinatorStandard.java:322)
+	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.update(UpdateCoordinatorStandard.java:240)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:161)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1484)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2111)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553)
+	... 33 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'pedido_id' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181)
+	... 55 common frames omitted
+2026-06-24 23:54:35 [main] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-24 23:54:35 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-24 23:54:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 23:54:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-24 23:54:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-24 23:57:10 [main] INFO  c.p.p.PagoServiceApplication - Starting PagoServiceApplication using Java 26.0.1 with PID 32432 (D:\Programacion\Proyectos\NetBeans-Java\DevpFullstack1\Proyecto Semestral\Pizzeria\pago-service\target\classes started by Mascotron in D:\Programacion\Proyectos\NetBeans-Java\DevpFullstack1\Proyecto Semestral\Pizzeria\pago-service)
+2026-06-24 23:57:10 [main] DEBUG c.p.p.PagoServiceApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-24 23:57:10 [main] INFO  c.p.p.PagoServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-24 23:57:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-24 23:57:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2026-06-24 23:57:12 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9098 (http)
+2026-06-24 23:57:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-24 23:57:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-24 23:57:12 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1315 ms
+2026-06-24 23:57:12 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-24 23:57:12 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-24 23:57:12 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-24 23:57:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-24 23:57:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c88d04f
+2026-06-24 23:57:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-24 23:57:12 [main] WARN  org.hibernate.orm.core - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-24 23:57:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_pago?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_pago/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-24 23:57:13 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-24 23:57:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-24 23:57:13 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-24 23:57:16 [main] INFO  liquibase.changelog - Reading from bd_pago.databasechangelog
+2026-06-24 23:57:16 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2026-06-24 23:57:16 [main] INFO  liquibase.changelog - Reading from bd_pago.databasechangelog
+2026-06-24 23:57:16 [main] INFO  liquibase.util - UPDATE SUMMARY
+2026-06-24 23:57:16 [main] INFO  liquibase.util - Run:                          0
+2026-06-24 23:57:16 [main] INFO  liquibase.util - Previously run:               2
+2026-06-24 23:57:16 [main] INFO  liquibase.util - Filtered out:                 0
+2026-06-24 23:57:16 [main] INFO  liquibase.util - -------------------------------
+2026-06-24 23:57:16 [main] INFO  liquibase.util - Total change sets:            2
+2026-06-24 23:57:16 [main] INFO  liquibase.util - Update summary generated
+2026-06-24 23:57:16 [main] INFO  liquibase.command - Command execution complete
+2026-06-24 23:57:16 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-24 23:57:16 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9098 (http) with context path '/'
+2026-06-24 23:57:16 [main] INFO  c.p.p.PagoServiceApplication - Started PagoServiceApplication in 6.353 seconds (process running for 6.761)
+2026-06-24 23:57:16 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-24 23:57:16 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'

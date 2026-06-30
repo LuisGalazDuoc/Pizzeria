@@ -69,7 +69,7 @@ services:
       - DB_HOST=host.docker.internal
   
   envio-service:
-    build: ./producto-service
+    build: ./envio-service
     ports:
       - "9097:9097"
     environment:

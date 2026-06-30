@@ -17,46 +17,98 @@ spring:
         webflux:
           routes:
           - id: usuario-service
-            uri: http://localhost:9091
+            uri: http://usuario-service:9091
             predicates:
               - Path=/usuarios/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/usuarios/v3/api-docs, /v3/api-docs
 
           - id: direccion-service
-            uri: http://localhost:9092
+            uri: http://direccion-service:9092
             predicates:
               - Path=/direcciones/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/direcciones/v3/api-docs, /v3/api-docs
 
           - id: categoria-service
-            uri: http://localhost:9093
+            uri: http://categoria-service:9093
             predicates:
               - Path=/categorias/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/categorias/v3/api-docs, /v3/api-docs
           
           - id: producto-service
-            uri: http://localhost:9094
+            uri: http://producto-service:9094
             predicates:
               - Path=/productos/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/productos/v3/api-docs, /v3/api-docs  
           
           - id: pedido-service
-            uri: http://localhost:9095
+            uri: http://pedido-service:9095
             predicates:
               - Path=/pedidos/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/pedidos/v3/api-docs, /v3/api-docs
           
           - id: pedido-detalle-service
-            uri: http://localhost:9096
+            uri: http://pedido-detalle-service:9096
             predicates:
               - Path=/pedido-detalles/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/pedido-detalles/v3/api-docs, /v3/api-docs
           
           - id: envio-service
-            uri: http://localhost:9097
+            uri: http://envio-service:9097
             predicates:
               - Path=/envios/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/envios/v3/api-docs, /v3/api-docs
           
           - id: pago-service
-            uri: http://localhost:9098
+            uri: http://pago-service:9098
             predicates:
               - Path=/pagos/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/pagos/v3/api-docs, /v3/api-docs
           
           - id: auth-service
-            uri: http://localhost:9099
+            uri: http://auth-service:9099
             predicates:
               - Path=/auth/**
+            filters:
+            - PreserveHostHeader
+            - RewritePath=/auth/v3/api-docs, /v3/api-docs   
+springdoc:
+  swagger-ui:
+    #path: /swagger-ui.html
+    urls:
+      - name: Usuarios
+        url: usuarios/v3/api-docs
+      - name: Direcciones
+        url: direcciones/v3/api-docs
+      - name: Categorias
+        url: categorias/v3/api-docs
+      - name: Productos
+        url: productos/v3/api-docs
+      - name: Pedidos
+        url: pedidos/v3/api-docs
+      - name: PedidoDetalles
+        url: pedido-detalles/v3/api-docs
+      - name: Envios
+        url: envios/v3/api-docs
+      - name: Pagos
+        url: pagos/v3/api-docs
+      #- name: Auth
+      #  url: auth/v3/api-docs
+  api-docs:
+    enabled: true
+
